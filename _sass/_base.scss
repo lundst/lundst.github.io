@@ -160,6 +160,7 @@ pre {
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+    beckground: black;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -167,6 +168,7 @@ pre {
         max-width:         calc(800px - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
+
     }
 }
 
