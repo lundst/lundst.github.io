@@ -1,1 +1,4 @@
-This is a robot file
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /~joe/
