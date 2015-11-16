@@ -148,19 +148,21 @@ pre {
     }
 }
 
-
-
+html {
+  background-color: black;
+}
 /**
  * Wrapper
  */
-.wrapper {
+.wrapper_footer {
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
     max-width:         calc(800px - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
-    beckground: black;
+    background-color: black;
+    color: white;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -168,10 +170,53 @@ pre {
         max-width:         calc(800px - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
-
+        background-color: black;
+        color: white;
     }
 }
+/**
+ * Wrapper
+ */
+.wrapper_head {
+  max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
+  max-width:         calc(800px - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  background-color: black;
+  color: white;
+  @extend %clearfix;
 
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(800px - (#{$spacing-unit}));
+    max-width:         calc(800px - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+    background-color: black;
+    color: white;
+  }
+}
+/**
+ * Wrapper
+ */
+.wrapper_page {
+  max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
+  max-width:         calc(800px - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(800px - (#{$spacing-unit}));
+    max-width:         calc(800px - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+
+  }
+}
 
 
 /**
