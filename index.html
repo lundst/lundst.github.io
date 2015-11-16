@@ -3,24 +3,61 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts B</h1>
-
+  <hr>
+  <img src="./assets/martin1.jpg" width="190" alt="Bild p? Martin Lundstr?m"><br>
+  <br>
+  <hr>
+  <div>
+  Jag studerar p&aring; distans fr&aring;n Malm&ouml;, d&auml;r jag bor med min familj. Har tidigare <br>
+  studerat p&aring; Datateknik p&aring; Lule&aring; tekniska h&ouml;gskola (Luth), numera k&auml;nt som <br>
+  <a href="http://www.ltu.se/" target="_blank">Lule&aring; tekniska universitet (Ltu)</a>
+  Efter studierna har jag jobbat med bland <br>
+  annat inbyggda-system och mjukvaru-test av programvara f&ouml;r inbyggda-system <br>
+  och ASICs, nu ser jag fram emot att uppdatera mina kunskaper. P&aring; fritiden <br>
+  umg&aring;s jag med familjen och tycker om att resa. Tr&auml;nar g&auml;rna, simmar och &aring;ker <br>
+  skidor, n&auml;r tillf&auml;lle ges.<br><br>
+    <hr><br>
+  Det program jag l&auml;ser  &auml;r:<br>
+  <a href="http://lnu.se/utbildning/program/ngudm" target="_blank">Utveckling och drift av mjukvarusystem, 180 h&ouml;gskolepo&auml;ng</a><br>
+  p&aring; <a href="http://lnu.se/" target="_blank">Linne-universitetet</a>
+   f&ouml;rra perioden l&auml;ste jag:<br>
+    <ul>
+      <li><a href="https://coursepress.lnu.se/kurs/grundlaggande-programmering/" target="_blank">1DV021 Grundl&auml;ggande programmering 7.5p</a></li>
+      <li><a href="http://medieteknik.lnu.se/1me321/" target="_blank">1ME321 webbteknik1        7.5p</a></li>
+    </ul>
+    och just nu l&auml;ser jag tv&aring; mycket intressanta kurser:<br>
+  <ul>
+    <li><a href="https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/" target="_blank">1DV022 Grundl&auml;ggande programmering 7.5p</a></li>
+    <li><a href="https://mymoodle.lnu.se/course/view.php?id=16755" target="_blank">1DV0506 Programming and Problem Solving - 7,5p</a></li>
+  </ul>
+    <hr>
+  </div>
+  <br>
+  <h1 class="page-heading">This page is an exercise, in a course 1DV022</h1>
+  <p id="myStyle"> klientbaserad-webbprogrammering:&nbsp
+  <a href="https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/">https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/</a>
+  </p>
+  <hr>
+<div>
+  <h3> Here are links to this sites, "human.txt" and "robot.txt" </h3>
   <a href="./humans.txt" class="button">Humans.txt</a>
   <a href="./robot.txt" class="button">robot.txt</a>
+  <a href="./robot.txt" class="button">opengraphconfiguration.txt</a>
+</div>
+  <br>
+  <hr>
+  <h3> Site Posts: </h3>
   <ul class="post-list">
-    {% for post in site.posts %}ls
-
+    {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
     {% endfor %}
   </ul>
-
+  <hr>
   <p class="rss-subscribe">subscribe <a> href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

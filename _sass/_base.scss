@@ -207,6 +207,8 @@ html {
   margin-left: auto;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
+  background-color: lightgray;
+  color: black;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
@@ -214,7 +216,8 @@ html {
     max-width:         calc(800px - (#{$spacing-unit}));
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
-
+    background-color: lightgray;
+    color: black;
   }
 }
 
