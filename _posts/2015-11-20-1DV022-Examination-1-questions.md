@@ -1,42 +1,24 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-11-07 04:58:46
-categories: jekyll update
+title: "1DV022 - Examination 1 questions"
+date:   2015-11-16 04:58:46
+categories: student course
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+##Examination 1 questions
 
-Jekyll also offers powerful support for code snippets:
+1. What do you think of pre-compiling your CSS?
+* Compare to regular CSS
+* Which techniques did you use?
+* Pros and cons?
+2. What do you think of static site generators?
+* What type of projects are they suitable for?
+3. What is robots.txt and how have you configure it for your site?
+4. What is humans.txt and how have you configure it for your site?
+5. How did you implements comments to blog posts
+6. What is Open Graph and how do you make use of it?
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
-
-
-
-•What do you think of pre-compiling your CSS?
-◦Compare to regular CSS
-◦Which techniques did you use?
-◦Pros and cons?
-•What do you think of static site generators?
-◦What type of projects are they suitable for?
-•What is Open Graph and how do you make use of it?
-•How did you implements comments to blog posts
-
-####Precompiled CSS
+####1. Precompiled CSS
 Precompiled CSS save a lot of work, and enable the developer to keep the web-pages consistent.
 The compiled CSS has several advantages, several CSS files can be compiled into one file, improving performance and 
 avoid repetition of the same code. It abstracts the CSS into files that can be managed well in a project, 
@@ -55,8 +37,7 @@ It is dependent on the tool-chain, thus it become more dependent on version hand
  The version handling must be on both the code AND the environment that generate the code!
  Compiled code can be "nice-to-have" as a reference, if the build-process derails, for some reason.
 
-
-####Static site generators
+####2. Static site generators
 Static site generators, are just as the name indicates, suitable for static/semi-static information, such as web-sits 
 containing, buisness-location, restaurant-menues, company-adress/telephone-number, publication of electronic books, results and scores.
 In short, everything that represent a result of some sort of activity that does not change/or change rarely.
@@ -69,17 +50,19 @@ and they suffice, when there is a  need to get some-ting of the ground fast.
 •What is robots.txt and how have you configure it for your site?
 •What is humans.txt and how have you configure it for your site?
 
-####robots.txt 
+####3 .robots.txt 
+<http://www.robotstxt.org/>
 
-####humans.txt
+####4. humans.txt
 <http://humanstxt.org/>
-####"This" blog post
+
+####5. This blog post
 I implemented this blogg, with the usage of DISQUS. It is very nice, but unfortunately, one need to have 
 access/connection to a web-server, with the rights to run java-script. Also to configure and add features, are quite 
 technically demanding for most people, that may not be so into programming.
 <https://disqus.com>
 
-####Open Graph
+####6. Open Graph
 
  Open graph, is an interesting technique, but a major hurdle, is that FACEBOOK is so dominating, when it comes to 
  developing/influencing the future.That there will be companies and standards, that "glue" the web together, is certain,

@@ -1,20 +1,19 @@
 /* TEAM */
 
-Your title: Martin Lundstr�m
-Site: email, link to a contact form, etc.
-Twitter: your Twitter username.
-Location: City, Country.
+Your title: Martin Lundström
+Site: ml223ty@student.lnu.se
+Location: Mslmö, Sweden.
 
 /* THANKS */
 
-Name: name or url
+Name: Martin Lundström
 
 /* SITE */
 
-Last update: 2015/11/15
-Standards: HTML5, CSS3,..
-Components: Modernizr, jQuery, etc.
-Software: Software used for the development
+Last update: 2015/11/17
+Standards: HTML5, CSS3
+Components: jQuery
+Software: Jekyll
 
 
 
