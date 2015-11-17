@@ -1,4 +1,4 @@
 <meta property="og:title" content="Martin Lundström´s website"/>
 <meta property="og:type" content="article"/>
 <meta property="og:url" content="http://lundst.github.io/">
-<meta property="og:image" content="http://www.mysite.com/articleimage.jpg"/>
+<meta property="og:image" content="http://lundst.github.io/assets/martin.jpg"/>
