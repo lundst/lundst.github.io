@@ -47,13 +47,12 @@ attractive alternative. This make them less attractive to buisness-sites, that n
 price-changes and "just-in-time" supply-chains. I like static-site generators, because of their, short "start-up" time, 
 and they suffice, when there is a  need to get some-ting of the ground fast.
 
-•What is robots.txt and how have you configure it for your site?
-•What is humans.txt and how have you configure it for your site?
-
 ####3 .robots.txt 
+Robots.txt describe how the creator wish different search-engines to treat different pages/content on the site.
 <http://www.robotstxt.org/>
 
 ####4. humans.txt
+Humans.txt is a description of the web-site in a form that a human readable form.
 <http://humanstxt.org/>
 
 ####5. This blog post
