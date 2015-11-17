@@ -1,5 +1,5 @@
 ---
-layout: post1
+layout: post2
 title:  "1DV022 - Examination 1 requirements"
 date:   2015-11-17 00:59:46
 categories: student course
