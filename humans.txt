@@ -2,7 +2,7 @@
 
 Your title: Martin Lundström
 Site: ml223ty@student.lnu.se
-Location: Mslmö, Sweden.
+Location: Malmö, Sweden.
 
 /* THANKS */
 
